@@ -10720,5 +10720,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+  }
 /*# sourceMappingURL=bootstrap.css.map */
